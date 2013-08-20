@@ -15,7 +15,6 @@
 		A1AD910017BA90B30036DF26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD90FF17BA90B30036DF26 /* main.m */; };
 		A1AD910417BA90B30036DF26 /* KTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD910317BA90B30036DF26 /* KTAppDelegate.m */; };
 		A1AD910717BA90B30036DF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1AD910517BA90B30036DF26 /* Main.storyboard */; };
-		A1AD910A17BA90B30036DF26 /* Kino_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1AD910817BA90B30036DF26 /* Kino_Test.xcdatamodeld */; };
 		A1AD910D17BA90B30036DF26 /* KTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD910C17BA90B30036DF26 /* KTMasterViewController.m */; };
 		A1AD911017BA90B30036DF26 /* KTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD910F17BA90B30036DF26 /* KTDetailViewController.m */; };
 		A1AD911217BA90B30036DF26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1AD911117BA90B30036DF26 /* Images.xcassets */; };
@@ -25,6 +24,7 @@
 		A1AD911C17BA90B30036DF26 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AD90F717BA90B30036DF26 /* CoreData.framework */; };
 		A1AD912417BA90B30036DF26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1AD912217BA90B30036DF26 /* InfoPlist.strings */; };
 		A1AD912617BA90B30036DF26 /* Kino_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AD912517BA90B30036DF26 /* Kino_TestTests.m */; };
+		A1AD913417BB8C860036DF26 /* Kino_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1AD913217BB8C860036DF26 /* Kino_Test.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,6 @@
 		A1AD910217BA90B30036DF26 /* KTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTAppDelegate.h; sourceTree = "<group>"; };
 		A1AD910317BA90B30036DF26 /* KTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTAppDelegate.m; sourceTree = "<group>"; };
 		A1AD910617BA90B30036DF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A1AD910917BA90B30036DF26 /* Kino_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kino_Test.xcdatamodel; sourceTree = "<group>"; };
 		A1AD910B17BA90B30036DF26 /* KTMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTMasterViewController.h; sourceTree = "<group>"; };
 		A1AD910C17BA90B30036DF26 /* KTMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTMasterViewController.m; sourceTree = "<group>"; };
 		A1AD910E17BA90B30036DF26 /* KTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTDetailViewController.h; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		A1AD912117BA90B30036DF26 /* Kino TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kino TestTests-Info.plist"; sourceTree = "<group>"; };
 		A1AD912317BA90B30036DF26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A1AD912517BA90B30036DF26 /* Kino_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kino_TestTests.m; sourceTree = "<group>"; };
+		A1AD913317BB8C860036DF26 /* Kino_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kino_Test.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,15 +123,13 @@
 		A1AD90F917BA90B30036DF26 /* Kino Test */ = {
 			isa = PBXGroup;
 			children = (
-				A1AD910217BA90B30036DF26 /* KTAppDelegate.h */,
-				A1AD910317BA90B30036DF26 /* KTAppDelegate.m */,
+				A1AD913217BB8C860036DF26 /* Kino_Test.xcdatamodeld */,
 				A1AD910517BA90B30036DF26 /* Main.storyboard */,
 				A1AD910B17BA90B30036DF26 /* KTMasterViewController.h */,
 				A1AD910C17BA90B30036DF26 /* KTMasterViewController.m */,
 				A1AD910E17BA90B30036DF26 /* KTDetailViewController.h */,
 				A1AD910F17BA90B30036DF26 /* KTDetailViewController.m */,
 				A1AD911117BA90B30036DF26 /* Images.xcassets */,
-				A1AD910817BA90B30036DF26 /* Kino_Test.xcdatamodeld */,
 				A1AD90FA17BA90B30036DF26 /* Supporting Files */,
 			);
 			path = "Kino Test";
@@ -140,6 +138,8 @@
 		A1AD90FA17BA90B30036DF26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1AD910217BA90B30036DF26 /* KTAppDelegate.h */,
+				A1AD910317BA90B30036DF26 /* KTAppDelegate.m */,
 				A1AD90FB17BA90B30036DF26 /* Kino Test-Info.plist */,
 				A1AD90FC17BA90B30036DF26 /* InfoPlist.strings */,
 				A1AD90FF17BA90B30036DF26 /* main.m */,
@@ -266,9 +266,9 @@
 			files = (
 				A1AD910017BA90B30036DF26 /* main.m in Sources */,
 				A1AD910D17BA90B30036DF26 /* KTMasterViewController.m in Sources */,
+				A1AD913417BB8C860036DF26 /* Kino_Test.xcdatamodeld in Sources */,
 				A1AD910417BA90B30036DF26 /* KTAppDelegate.m in Sources */,
 				A1AD911017BA90B30036DF26 /* KTDetailViewController.m in Sources */,
-				A1AD910A17BA90B30036DF26 /* Kino_Test.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,12 +483,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A1AD910817BA90B30036DF26 /* Kino_Test.xcdatamodeld */ = {
+		A1AD913217BB8C860036DF26 /* Kino_Test.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A1AD910917BA90B30036DF26 /* Kino_Test.xcdatamodel */,
+				A1AD913317BB8C860036DF26 /* Kino_Test.xcdatamodel */,
 			);
-			currentVersion = A1AD910917BA90B30036DF26 /* Kino_Test.xcdatamodel */;
+			currentVersion = A1AD913317BB8C860036DF26 /* Kino_Test.xcdatamodel */;
 			path = Kino_Test.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

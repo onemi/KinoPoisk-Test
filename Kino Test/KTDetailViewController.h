@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KTDetailViewController : UIViewController
+@interface KTDetailViewController : UIViewController {
+IBOutlet UIImageView *kinoImage;
+IBOutlet UILabel *kinoOriginal;
+IBOutlet UILabel *kinoRu;
+    IBOutlet UILabel *kinoCountry;
+    IBOutlet UILabel *kinoYear;
+    IBOutlet UILabel *kinoRatingImdb;
+    IBOutlet UILabel *kinoRatingKinopoisk;
+}
 
 @property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+
 @end

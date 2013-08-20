@@ -10,9 +10,14 @@
 
 #import <CoreData/CoreData.h>
 
-@interface KTMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface KTMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
+    NSArray *entities;
+    NSDictionary *kinos;
+}
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
+-(void)fetchEntities;
 
 @end
